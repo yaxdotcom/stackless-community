@@ -44,11 +44,26 @@
                     Go Stackless
                 </h1>
                 <h2 class="subtitle is-5 is-muted">Learn about web development without frameworks or build tools. <em>The stackless way.</em></h2>
-                <div class="button-wrap">
-                    <a href="https://buttondown.email/stackless" class="button cta is-rounded primary-btn raised">
-                        Subscribe to the Stackless Newsletter
-                    </a>
+              <form class="form-horizontal"
+                action="https://buttondown.email/api/emails/embed-subscribe/stackless"
+                method="post"
+                target="popupwindow"
+                onsubmit="window.open('https://buttondown.email/stackless', 'popupwindow')">
+                <input type="hidden" value="1" name="embed" />
+                <fieldset>
+                <div class="field">
+                  <label class="label" for="bd-email">Enter your email</label>
+                  <div class="control">
+                    <input id="bd-email" name="email" type="email" placeholder="me@example.com" class="input ">
+                  </div>
+                <div class="field">
+                  <label class="label" for="singlebutton-0"></label>
+                  <div class="control">
+                    <button id="submitbutton" type="submit" name="submitbutton" class="button is-info cta is-rounded primary-btn raised">Subscribe to the Stackless Newsletter</button>
+                  </div>
                 </div>
+                </fieldset>
+                </form>
             </div>
             <div class="column is-5">
                 <figure class="image is-4by3">
