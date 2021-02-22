@@ -16,9 +16,7 @@ export class StacklessorgFooter extends LitElement {
         <div class="columns is-desktop">
           <div class="column is-5">
           <h2 class="title is-5 has-text-white">Sponsored by Yax.com</h2>
-          <p class="block">Build a website for free with <a href="https://yax.com/">Yax.com</a>, the do-it-yourself alternative
-          to commercial site builders. Own the code you create and take it anywhere, without
-          vendor lock-in, using quality web components. Our tutorials will get you started.</p>
+          <p class="block">Yax.com is a showcase for stackless web development. <a href="https://yax.com/">Yax.com</a> is the do-it-yourself alternative to commercial site builders. Check it out!</p>
           <div>
           <p class="buttons">
             <a target="blank" href="https://github.com/yaxdotcom" class="button is-black">
@@ -44,7 +42,7 @@ export class StacklessorgFooter extends LitElement {
           </div>
           <div class="column">
           <h3 class="title is-6 has-text-white">Get a Site</h3>
-          <p>Build a website using Yax.com</p>
+          <p>Build a website for free using Yax.com</p>
           <ul style="list-style-type: circle; list-style-position: inside;">
             <li><a href="https://try.yax.com/">Try Yax</a></li>
             <li><a href="https://sites.yax.com/#tiny_sites">Tiny Sites</a></li>
@@ -54,16 +52,15 @@ export class StacklessorgFooter extends LitElement {
           </div>
           <div class="column">
           <h6 class="title is-6 has-text-white">Tutorials</h6>
-          <p>Learn more with <br>tutorials from Yax.com</p>
+          <p>Learn about stackless <br>web development</p>
           <ul style="list-style-type: circle; list-style-position: inside;">
-            <li><a href="https://tutorials.yax.com/">Tutorials</a></li>
+            <li><a href="https://tutorials.yax.com/">Yax.com Tutorials</a></li>
           </ul>
           </div>
           <div class="column">
-          <h6 class="title is-6 has-text-white">Resources</h6>
+          <h6 class="title is-6 has-text-white">Contact</h6>
           <ul style="list-style-type: circle; list-style-position: inside;">
-            <li><a href="https://yax.zulipchat.com/">Community discussion</a></li>
-            <li><a href="mailto:support@yax.com">support@yax.com</a></li>
+            <li><a href="mailto:mail@stackless.community">mail@stackless.community</a></li>
           </ul>
           </div>
         </div>
