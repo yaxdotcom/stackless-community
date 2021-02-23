@@ -36,71 +36,62 @@
   <script type="module" src="/assets/scripts/stacklessorg-navbar.js"></script>
   <script type="module" src="/assets/scripts/stacklessorg-footer.js"></script>
 </head>
-
 <body>
 
   <header style="min-height: 64px;">
     <stacklessorg-navbar></stacklessorg-navbar>
   </header>
 
-  <div class="hero-body">
-    <div class="container">
-      <div class="columns is-vcentered">
-        <div class="column is-5 is-offset-1 landing-caption">
-          <h1 class="title is-1 is-bold is-spaced">
-            Go Stackless
-          </h1>
-          <h2 class="subtitle is-5 is-muted">Don't miss out on a new thing. Learn about web development without frameworks or build tools. <em>The stackless way.</em></h2>
-          <form class="form-horizontal" action="https://buttondown.email/api/emails/embed-subscribe/stackless" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/stackless', 'popupwindow')">
-            <input type="hidden" value="1" name="embed" />
-            <input type="hidden" name="tag" value="news-stackless-community" />
-            <fieldset>
-              <div class="field">
-                <label class="label" for="bd-email">Enter your email</label>
-                <div class="control">
-                  <input id="bd-email" name="email" type="email" placeholder="me@example.com" class="input ">
-                </div>
-                <div class="field">
-                  <label class="label" for="submitbutton"></label>
-                  <div class="control">
-                    <button onclick="analytics.track('Subscribe Me')" id="submitbutton" type="submit" name="submitbutton" class="button is-info cta is-rounded primary-btn raised">Get the Stackless Newsletter</button>
-                  </div>
-                </div>
-                <p class="has-text-left is-size-7 is-italic mt-2">Thanks to Buttondown, you can also <a href="https://buttondown.email/stackless/rss">subscribe via RSS</a>.</p>
-            </fieldset>
-          </form>
-        </div>
-        <div class="column is-5">
-          <figure class="image is-4by3">
-            <img src="/assets/images/home/worker.svg" alt="working on a mac">
-          </figure>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <section class="hero author-bg-image">
+  <section class="hero">
     <div class="hero-body">
-      <div class="container has-text-centered py-4">
-        <div class="columns is-centered is-vcentered is-mobile">
-          <div class="column is-narrow has-text-centered">
-            <figure class="image is-560by315">
-              <iframe class="has-ratio" style="margin: 0 auto; border: 10px solid #ddd; border-radius: 25px;" width="560" height="315" src="https://www.youtube.com/embed/K7_wAGFfJqA?start=0&modestbranding=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-5 is-offset-1 landing-caption">
+            <h1 class="title is-1 is-bold is-spaced">
+              Go Stackless
+            </h1>
+            <h2 class="subtitle is-5 is-muted">Don't miss out on a new thing. Learn about web development without frameworks or build tools. <em>The stackless way.</em></h2>
+            <form class="form-horizontal" action="https://buttondown.email/api/emails/embed-subscribe/stackless" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/stackless', 'popupwindow')">
+              <input type="hidden" value="1" name="embed" />
+              <input type="hidden" name="tag" value="news-stackless-community" />
+              <fieldset>
+                <div class="field">
+                  <label class="label" for="bd-email">Enter your email</label>
+                  <div class="control">
+                    <input id="bd-email" name="email" type="email" placeholder="me@example.com" class="input ">
+                  </div>
+                  <div class="field">
+                    <label class="label" for="submitbutton"></label>
+                    <div class="control">
+                      <button onclick="analytics.track('Subscribe Me')" id="submitbutton" type="submit" name="submitbutton" class="button is-info cta is-rounded primary-btn raised">Get the Stackless Newsletter</button>
+                    </div>
+                  </div>
+                  <p class="has-text-left is-size-7 is-italic mt-2">Thanks to Buttondown, you can also <a href="https://buttondown.email/stackless/rss">subscribe via RSS</a>.</p>
+              </fieldset>
+            </form>
+          </div>
+          <div class="column is-5">
+            <figure class="image is-4by3">
+              <img src="/assets/images/home/worker.svg" alt="working on a mac">
             </figure>
           </div>
         </div>
-        <h2 class="subtitle has-text-white"><span class="is-italic">Stackless</span> is a newsletter from <br/> Daniel Kehoe</h2>
-        <div class="columns py-5">
-          <div class="column is-3">
-          </div>
-          <div class="column is-6 has-text-white">
+      </div>
+    </div>
+  </section>
+
+  <section class="hero author-bg-image">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-5 is-offset-1 has-text-centered">
+            <h2 class="subtitle has-text-white"><span class="is-italic">Stackless</span> is a newsletter from <br /> Daniel Kehoe</h2>
             <div class="level">
               <div class="level-item">
                 <figure class="image is-128x128"><img loading="lazy" class="is-rounded" src="/assets/images/home/danielkehoe-color-192px.png" alt=""></figure>
               </div>
             </div>
-            <section class="container mt-6 px-6">
+            <section class="container has-text-white mt-6 px-6">
               <blockquote class="is-size-6 has-text-weight-light is-italic">
                 &ldquo;<a href="https://twitter.com/yaxdotcom" class="has-text-light has-text-weight-semibold">Daniel Kehoe</a> &hellip; has had a long history in web development&mdash;even including an email exchange with Tim Berners-Lee <a href="https://blog.yax.com/posts/early-days-of-the-web-1991/" class="has-text-light has-text-weight-semibold">in 1991</a>. He’s a respected voice in the Ruby on Rails community, after starting the <a href="http://railsapps.github.io/" class="has-text-light has-text-weight-semibold">RailsApps</a> open source project and writing the book <a href="http://learn-rails.com/" class="has-text-light has-text-weight-semibold">Learn Ruby on Rails</a> about a decade ago. But somewhere along the way, Kehoe tired of the frameworks approach to web development &hellip; Instead, he’s now focused on helping people build web apps and websites using the newest features built into web browsers.&rdquo;
               </blockquote>
@@ -110,12 +101,15 @@
                 </div>
                 <div class="column">
                   <p class="has-text-left is-size-7 is-italic has-text-weight-bold mt-2" style="margin-left:-5%;">&mdash; <a href="https://twitter.com/ricmac" class="has-text-light">Richard MacManus
-                  <br/>Senior Editor, The New Stack; Founder, ReadWriteWeb</a></p>
+                      <br />Senior Editor, The New Stack; Founder, ReadWriteWeb</a></p>
                 </div>
               </div>
             </section>
           </div>
-          <div class="column is-4">
+          <div class="column is-5 has-text-centered">
+            <figure class="image is-560by315">
+              <iframe class="has-ratio" style="margin: 0 auto; border: 10px solid #ddd; border-radius: 25px;" width="560" height="315" src="https://www.youtube.com/embed/K7_wAGFfJqA?start=0&modestbranding=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </figure>
           </div>
         </div>
       </div>
@@ -125,5 +119,6 @@
   <footer>
     <stacklessorg-footer></stacklessorg-footer>
   </footer>
+
 </body>
 </html>
