@@ -58,8 +58,9 @@ export class StacklessorgFooter extends LitElement {
           </ul>
           </div>
           <div class="column">
-          <h6 class="title is-6 has-text-white">Contact</h6>
+          <h6 class="title is-6 has-text-white">Resources</h6>
           <ul style="list-style-type: circle; list-style-position: inside;">
+            <li><a href="https://www.reddit.com/r/stackless/">Stackless on Reddit</a></li>
             <li><a href="mailto:mail@stackless.community">mail@stackless.community</a></li>
           </ul>
           </div>
